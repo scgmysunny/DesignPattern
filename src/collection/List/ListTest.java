@@ -16,7 +16,7 @@ public class ListTest {
         System.out.println(books);
         //将新字符串对象插入在第二个位置
         books.add(1,new String("疯狂Ajax讲义"));
-          for (int i = 0; i <books.size() ; i++) {
+          for (int i = 0; i <books.size(); i++) {
               System.out.println(books.get(i));
                   }
 
@@ -31,6 +31,6 @@ public class ListTest {
 
         //将books集合的第二个元素（包括）
         //到第三个元素（不包括）截取成子集合
-        System.out.println(books.subList(1 , 2));
+        System.out.println(books.subList(1 , 4));
     }
 }
